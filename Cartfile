@@ -1,0 +1,2 @@
+github "groue/GRDB.swift" == 3.3.0
+github "ReactiveX/RxSwift" == 4.3.0
