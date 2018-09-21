@@ -47,10 +47,8 @@
 		56DBA5301F0BB02200C90A18 /* MapFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBA52E1F0BB02200C90A18 /* MapFetch.swift */; };
 		56DBA5421F0BF12B00C90A18 /* GRDB+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBA5411F0BF12B00C90A18 /* GRDB+Rx.swift */; };
 		56DBA5431F0BF12B00C90A18 /* GRDB+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBA5411F0BF12B00C90A18 /* GRDB+Rx.swift */; };
-		A362BD5B2DEFD11686782D1A /* Pods_RxGRDBmacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA8B516D1A1DA52925A30C9 /* Pods_RxGRDBmacOS.framework */; };
-		A4B026157539E608ECC97D62 /* Pods_RxGRDBiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EC464A1CA3B744FF371822 /* Pods_RxGRDBiOSTests.framework */; };
-		BCEC800F7000170F0EE210B3 /* Pods_RxGRDBiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6949C145CE7FB5807620153C /* Pods_RxGRDBiOS.framework */; };
-		D05BDD9472F3AF41330D4E57 /* Pods_RxGRDBmacOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEFACDBCE1B5869FDBBBE23 /* Pods_RxGRDBmacOSTests.framework */; };
+		D452743B21547443006F58EF /* GRDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D452743A21547443006F58EF /* GRDB.framework */; };
+		D452743D21547448006F58EF /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D452743C21547448006F58EF /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,11 +69,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02EC464A1CA3B744FF371822 /* Pods_RxGRDBiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGRDBiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DA0ED10C004EFF9F528878D /* Pods-RxGRDBmacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGRDBmacOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxGRDBmacOS/Pods-RxGRDBmacOS.debug.xcconfig"; sourceTree = "<group>"; };
-		147DC2F8FEE7ED4D187504B2 /* Pods-RxGRDBmacOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGRDBmacOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxGRDBmacOSTests/Pods-RxGRDBmacOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		2AA8B516D1A1DA52925A30C9 /* Pods_RxGRDBmacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGRDBmacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4789D0D96DEAF7A731A24AC7 /* Pods-RxGRDBiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGRDBiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxGRDBiOS/Pods-RxGRDBiOS.release.xcconfig"; sourceTree = "<group>"; };
 		560F92C31E94DF280077EADF /* RxGRDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxGRDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		561782561F655DAC00CEAA55 /* DiffSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffSupport.swift; sourceTree = "<group>"; };
 		5617825C1F6566EA00CEAA55 /* PrimaryKeyDiffScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryKeyDiffScanner.swift; sourceTree = "<group>"; };
@@ -99,18 +92,12 @@
 		567043E11F66A7B9000A44BA /* RowValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowValueTests.swift; sourceTree = "<group>"; };
 		569E8510200A695A0028D1EC /* ChangesObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesObservable.swift; sourceTree = "<group>"; };
 		569E8513200A69D20028D1EC /* DatabaseRegionObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRegionObserver.swift; sourceTree = "<group>"; };
-		56D65F031EF8F5740098466C /* RxGRDB.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RxGRDB.podspec; sourceTree = "<group>"; };
 		56D65F261EF8F5C60098466C /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		56DBA52E1F0BB02200C90A18 /* MapFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapFetch.swift; sourceTree = "<group>"; };
 		56DBA5311F0BC0C000C90A18 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		56DBA5411F0BF12B00C90A18 /* GRDB+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRDB+Rx.swift"; sourceTree = "<group>"; };
-		5A188A66CB167C18650FBE5B /* Pods-RxGRDBiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGRDBiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxGRDBiOSTests/Pods-RxGRDBiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6949C145CE7FB5807620153C /* Pods_RxGRDBiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGRDBiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BF0D0B1F6507696ECEC3D45 /* Pods-RxGRDBmacOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGRDBmacOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxGRDBmacOSTests/Pods-RxGRDBmacOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A12E0244D0A25698E6AEEC3F /* Pods-RxGRDBiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGRDBiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxGRDBiOS/Pods-RxGRDBiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AAEFACDBCE1B5869FDBBBE23 /* Pods_RxGRDBmacOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGRDBmacOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3E31D2DE049063A8E9E3ABF /* Pods-RxGRDBmacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGRDBmacOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxGRDBmacOS/Pods-RxGRDBmacOS.release.xcconfig"; sourceTree = "<group>"; };
-		D96EE370B2A6F2DC8FABF36B /* Pods-RxGRDBiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGRDBiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxGRDBiOSTests/Pods-RxGRDBiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D452743A21547443006F58EF /* GRDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GRDB.framework; path = Carthage/Build/iOS/GRDB.framework; sourceTree = "<group>"; };
+		D452743C21547448006F58EF /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A362BD5B2DEFD11686782D1A /* Pods_RxGRDBmacOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +113,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				562755DC1E962BFD0035B653 /* RxGRDB.framework in Frameworks */,
-				D05BDD9472F3AF41330D4E57 /* Pods_RxGRDBmacOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEC800F7000170F0EE210B3 /* Pods_RxGRDBiOS.framework in Frameworks */,
+				D452743D21547448006F58EF /* RxSwift.framework in Frameworks */,
+				D452743B21547443006F58EF /* GRDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +130,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5650291F1E8FDF5600615A2C /* RxGRDB.framework in Frameworks */,
-				A4B026157539E608ECC97D62 /* Pods_RxGRDBiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,13 +148,11 @@
 		5650290B1E8FDF5600615A2C = {
 			isa = PBXGroup;
 			children = (
-				56D65F031EF8F5740098466C /* RxGRDB.podspec */,
 				56D65F261EF8F5C60098466C /* CHANGELOG.md */,
 				56DBA5311F0BC0C000C90A18 /* TODO.md */,
 				565029171E8FDF5600615A2C /* RxGRDB */,
 				565029221E8FDF5600615A2C /* Tests */,
 				565029161E8FDF5600615A2C /* Products */,
-				99591BC2758D6AF8761725F3 /* Pods */,
 				99C21AA99C806FFA9FF83F19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -243,28 +226,11 @@
 			name = Lib;
 			sourceTree = "<group>";
 		};
-		99591BC2758D6AF8761725F3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A12E0244D0A25698E6AEEC3F /* Pods-RxGRDBiOS.debug.xcconfig */,
-				4789D0D96DEAF7A731A24AC7 /* Pods-RxGRDBiOS.release.xcconfig */,
-				5A188A66CB167C18650FBE5B /* Pods-RxGRDBiOSTests.debug.xcconfig */,
-				D96EE370B2A6F2DC8FABF36B /* Pods-RxGRDBiOSTests.release.xcconfig */,
-				0DA0ED10C004EFF9F528878D /* Pods-RxGRDBmacOS.debug.xcconfig */,
-				D3E31D2DE049063A8E9E3ABF /* Pods-RxGRDBmacOS.release.xcconfig */,
-				7BF0D0B1F6507696ECEC3D45 /* Pods-RxGRDBmacOSTests.debug.xcconfig */,
-				147DC2F8FEE7ED4D187504B2 /* Pods-RxGRDBmacOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		99C21AA99C806FFA9FF83F19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6949C145CE7FB5807620153C /* Pods_RxGRDBiOS.framework */,
-				02EC464A1CA3B744FF371822 /* Pods_RxGRDBiOSTests.framework */,
-				2AA8B516D1A1DA52925A30C9 /* Pods_RxGRDBmacOS.framework */,
-				AAEFACDBCE1B5869FDBBBE23 /* Pods_RxGRDBmacOSTests.framework */,
+				D452743C21547448006F58EF /* RxSwift.framework */,
+				D452743A21547443006F58EF /* GRDB.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -334,11 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 565029291E8FDF5600615A2C /* Build configuration list for PBXNativeTarget "RxGRDBiOS" */;
 			buildPhases = (
-				5E591F0B5385CFB07E43F16C /* [CP] Check Pods Manifest.lock */,
 				565029101E8FDF5600615A2C /* Sources */,
 				565029111E8FDF5600615A2C /* Frameworks */,
 				565029121E8FDF5600615A2C /* Headers */,
 				565029131E8FDF5600615A2C /* Resources */,
+				D452743E21547453006F58EF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -508,24 +474,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E591F0B5385CFB07E43F16C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxGRDBiOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9324F24F42A42F903085A163 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,6 +511,25 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D452743E21547453006F58EF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/GRDB.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -649,7 +616,6 @@
 /* Begin XCBuildConfiguration section */
 		560F92C91E94DF290077EADF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DA0ED10C004EFF9F528878D /* Pods-RxGRDBmacOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -671,7 +637,6 @@
 		};
 		560F92CA1E94DF290077EADF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3E31D2DE049063A8E9E3ABF /* Pods-RxGRDBmacOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -693,7 +658,6 @@
 		};
 		562755DF1E962BFD0035B653 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BF0D0B1F6507696ECEC3D45 /* Pods-RxGRDBmacOSTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -708,7 +672,6 @@
 		};
 		562755E01E962BFD0035B653 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 147DC2F8FEE7ED4D187504B2 /* Pods-RxGRDBmacOSTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -842,7 +805,6 @@
 		};
 		5650292A1E8FDF5600615A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A12E0244D0A25698E6AEEC3F /* Pods-RxGRDBiOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -851,6 +813,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxGRDB/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -864,7 +830,6 @@
 		};
 		5650292B1E8FDF5600615A2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4789D0D96DEAF7A731A24AC7 /* Pods-RxGRDBiOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -873,6 +838,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxGRDB/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -885,7 +854,6 @@
 		};
 		5650292D1E8FDF5600615A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A188A66CB167C18650FBE5B /* Pods-RxGRDBiOSTests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AMD8W895CT;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -898,7 +866,6 @@
 		};
 		5650292E1E8FDF5600615A2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D96EE370B2A6F2DC8FABF36B /* Pods-RxGRDBiOSTests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AMD8W895CT;
 				INFOPLIST_FILE = Tests/Info.plist;
